@@ -101,3 +101,30 @@
   .wrapper .main_content .info div{
     margin-bottom: 20px;
   }
+
+  .img_one {
+      background: url(images/tamales1.jpg) 0 0 no-repeat;
+      display: block;
+      height: 650px;
+      text-indent: -99999em;
+      width: 1400px;
+      overflow: hidden;
+  }
+
+  .img_two {
+    background: url(images/salsas2.jpg) 0 0 no-repeat;
+    display: block;
+    height: 650px;
+    text-indent: -99999em;
+    width: 1400px;
+    overflow: hidden;
+  }
+
+  .img_three {
+    background: url(images/meats1.jpg) 0 0 no-repeat;
+    display: block;
+    height: 650px;
+    text-indent: -99999em;
+    width: 1400px;
+    overflow: hidden;
+  }
