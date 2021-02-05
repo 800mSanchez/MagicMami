@@ -1,3 +1,4 @@
+/* Master Styles */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
 *{
@@ -7,6 +8,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    /* outline: 1px solid red; */
   }
   
   body{
@@ -18,18 +20,19 @@
     position: relative;
   }
   
+/* Side-Bar CSS */
+
   .wrapper .sidebar{
     width: 200px;
     height: 100%;
-    background: #4b4276;
-    padding: 30px 0px;
+    background: #c55081;
+    padding: 0px 0px;
     position: fixed;
   }
   
-  .wrapper .sidebar h2{
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+  .wrapper .sidebar img {
+    width: 200px;
+    height: 50px
     margin-bottom: 90px;
   }
   
@@ -43,7 +46,7 @@
   }    
   
   .wrapper .sidebar ul li a{
-    color: #bdb8d7;
+    color: #070708;
     display: block;
   }
   
@@ -52,7 +55,7 @@
   }
   
   .wrapper .sidebar ul li:hover{
-    background-color: #594f8d;
+    background-color: #8a4060;
   }
       
   .wrapper .sidebar ul li:hover a{
@@ -70,16 +73,18 @@
   .wrapper .sidebar .social_media a{
     display: block;
     width: 40px;
-    background: #594f8d;
+    background: #8a4060;
     height: 40px;
     line-height: 45px;
     text-align: center;
     margin: 0 5px;
-    color: #bdb8d7;
+    color: #0f0e13;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
   
+/* Main Content Area CSS */
+
   .wrapper .main_content{
     width: 100%;
     margin-left: 200px;
@@ -93,38 +98,94 @@
   }
   
   .wrapper .main_content .info{
-    margin: 20px;
+    margin: 0px;
     color: #717171;
     line-height: 25px;
   }
   
   .wrapper .main_content .info div{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .img_one {
       background: url(images/tamales1.jpg) 0 0 no-repeat;
       display: block;
       height: 650px;
-      text-indent: -99999em;
-      width: 1400px;
+      /* text-indent: -99999em; */
+      width: 1319px;
       overflow: hidden;
+      background-size: cover;
+      transition: 0.8s ease-in-out, transform 1s;
+      filter: brightness(90%);
+  }
+
+  .img_one:hover {
+      box-shadow: inset 0 0 50px #000000;
+	    transform: scale(.95);
+      filter: brightness(80%);
+  }
+
+  .text {
+    display: flex;
+    margin-top: 500px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 70px;
+    font-family: 'Jomhuria', cursive;
+  }
+
+  p {
+    margin-top: 40px;
+    margin-left: 33px;
+    text-shadow: 1px 1px black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Jomhuria', cursive;
   }
 
   .img_two {
     background: url(images/salsas2.jpg) 0 0 no-repeat;
     display: block;
-    height: 650px;
+    height: 408px;
     text-indent: -99999em;
-    width: 1400px;
+    width: 659px;
     overflow: hidden;
+    background-size: cover;
+    transition: 0.8s ease-in-out, transform 1s;
   }
 
+  .img_two:hover {
+    box-shadow: inset 0 0 50px #000000;
+    filter: brightness(80%);
+    transform: scale(.95);
+}
+
   .img_three {
-    background: url(images/meats1.jpg) 0 0 no-repeat;
+    background: url(images/meats3.jpg) 0 0 no-repeat;
     display: block;
-    height: 650px;
+    height: 408px;
     text-indent: -99999em;
-    width: 1400px;
+    width: 660px;
     overflow: hidden;
+    background-size: cover;
+    filter: brightness(90%);
+    transition: 0.8s ease-in-out, transform 1s;
+  }
+
+  .img_three:hover {
+    box-shadow: inset 0 0 50px #000000;
+    transform: scale(.95);
+    filter: brightness(80%);
+}
+ 
+  .two_images {
+    display: flex;
+  }
+
+  .weekly_menu {
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 500px;
+    height: 650px;
   }
