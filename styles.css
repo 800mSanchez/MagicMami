@@ -146,7 +146,7 @@
   }
 
   .img_two {
-    background: url(images/salsas2.jpg) 0 0 no-repeat;
+    background: url(images/Food6.jpg) 0 0 no-repeat;
     display: block;
     height: 408px;
     text-indent: -99999em;
@@ -223,7 +223,7 @@
   /* ORDER FORM CSS */
 
   .img_four {
-    background: url(images/Catering2.jpg) 0 0 no-repeat;
+    background: url(images/Food3.jpg) 0 0 no-repeat;
     display: block;
     height: 645px;
     /* text-indent: -99999em; */
@@ -232,6 +232,7 @@
     background-size: cover;
     transition: 0.8s ease-in-out, transform 1s;
     filter: brightness(90%);
+    /* border-radius: 5%; */
   }
 
   .img_four:hover {
@@ -241,7 +242,7 @@
 }
 
   .img_five {
-    background: url(images/tamales1.jpg) 0 0 no-repeat;
+    background: url(images/Food5.jpg) 0 0 no-repeat;
     display: block;
     height: 645px;
     width: 445px;
@@ -249,6 +250,7 @@
     background-size: cover;
     transition: 0.8s ease-in-out, transform 1s;
     filter: brightness(90%);
+   /*  border-radius: 5%; */
   }
 
   .img_five:hover {
@@ -266,6 +268,7 @@
     background-size: cover;
     transition: 0.8s ease-in-out, transform 1s;
     filter: brightness(90%);
+    /* border-radius: 5%; */
   }
 
   .img_six:hover {
@@ -280,13 +283,12 @@
     /* justify-content: space-evenly; */
     /* align-items: center; */
   } 
-
   
-  .btn-1 {
+  /* .btn-1 {
     border: 3px solid #fff;
     color: #8a4060;
-  }
-  
+  } THIS MAKES THE BUTTON TEXT BURGUNDY*/
+
   .btn {
     background-color: black;
     border: black 5px solid;
@@ -319,4 +321,5 @@
 
 .btn-1a:hover, .btn-1a:active {
   background: #8a4060;
+  color: white;
 }
