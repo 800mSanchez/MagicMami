@@ -1,5 +1,5 @@
 /* Master Styles */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap");
 
 *{
     margin: 0;
@@ -10,14 +10,20 @@
     font-family: 'Josefin Sans', sans-serif;
     /* outline: 1px solid red; */
   }
-  
-  body{
-     background-color: #f3f5f9;
-  }
+
+  html,body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-y: hidden; */
+    background-color: #f3f5f9;
+}
   
   .wrapper{
     display: flex;
     position: relative;
+    /* margin: 0px; */
   }
   
 /* Side-Bar CSS */
@@ -73,13 +79,14 @@
   
   .wrapper .sidebar .social_media a{
     display: block;
-    width: 40px;
+    width: 50px;
     background: #8a4060;
-    height: 40px;
-    line-height: 45px;
+    height: 50px;
+    line-height: 65px;
     text-align: center;
     margin: 0 5px;
     color: #ffffff;
+    font-size: 50px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
@@ -133,7 +140,27 @@
     color: white;
     text-shadow: 1px 1px black;
     font-size: 70px;
-    font-family: 'Jomhuria', cursive;
+    font-family:  'Shippori Mincho', serif;
+  }
+
+  .text-1 {
+    display: flex;
+    margin-top: 640px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 40px;
+    font-family:  'Shippori Mincho', serif;
+  }
+
+  .text-2 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 230px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 40px;
+    font-family:  'Shippori Mincho', serif;
   }
 
   p {
@@ -142,14 +169,14 @@
     text-shadow: 1px 1px black;
     color: white;
     font-size: 20px;
-    font-family: 'Jomhuria', cursive;
+    font-family:  'Shippori Mincho', serif;
   }
 
   .img_two {
     background: url(images/Food6.jpg) 0 0 no-repeat;
     display: block;
-    height: 408px;
-    text-indent: -99999em;
+    height: 700px;
+    /* text-indent: -99999em; */
     width: 659px;
     overflow: hidden;
     background-size: cover;
@@ -163,10 +190,10 @@
 }
 
   .img_three {
-    background: url(images/meats3.jpg) 0 0 no-repeat;
+    background: url(images/Catering3.jpg) 0 0 no-repeat;
     display: block;
-    height: 408px;
-    text-indent: -99999em;
+    height: 700px;
+   /*  text-indent: -99999em; */
     width: 660px;
     overflow: hidden;
     background-size: cover;
@@ -198,6 +225,7 @@
   .two_containers {
     display: inline-flex;
     background-color: white;
+    height: 100vh;
   }
 
   .picture, .about_me {
@@ -212,12 +240,17 @@
     height: 650px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 15px;
+    margin-top: 35px;
   }
 
   .about_me {
     text-align: left;
     margin-top: 100px;
+    margin-left: -500px;
+  }
+
+  .text-3 {
+    margin-top: 50px;
   }
 
   /* ORDER FORM CSS */
@@ -322,4 +355,133 @@
 .btn-1a:hover, .btn-1a:active {
   background: #8a4060;
   color: white;
+}
+
+@media (max-width: 1353px) {
+
+  .wrapper .main_content{
+    margin-left: 140px;
+  }
+
+  .wrapper .sidebar{
+    height: 100%;
+    width: 140px;
+  }
+
+  .wrapper .sidebar img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 0px;
+  }
+
+  .wrapper .sidebar ul li{
+    margin-top: 30px;
+  }
+  
+  .wrapper .sidebar ul li a{
+    font-size: large;
+  }
+
+  .wrapper .sidebar .social_media a{
+    width: 70px;
+    height: 70px;
+    line-height: 90px;
+    font-size: 50px;
+  }
+  
+  .img_one {
+    height: 454px;
+    width: 640px;
+}
+  .img_two {
+    height: 570px;
+    width: 320px;
+  }
+
+  .img_three {
+    height: 570px;
+    width: 320px;
+  }
+
+  .two_images {
+    display: grid 1fr 1fr;
+    float: left;
+  }
+
+      
+}
+
+@media (max-width: 500px) {
+
+  
+  .wrapper .main_content{
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  .wrapper .sidebar{
+    width: 100%;
+    height: 80px;
+    background: #c55081;
+    padding: 0px 0px;
+    display: inline-flex;
+    flex-direction: row;
+    position: absolute;
+  }
+
+  .wrapper .sidebar img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 90px;
+  }
+
+  .wrapper .sidebar ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper .sidebar ul li{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 0px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  
+  .wrapper .sidebar ul li a{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-small;
+  }
+
+  .wrapper .sidebar .social_media a{
+    width: 30px;
+    height: 30px;
+    margin-left: 330px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  
+  .img_one {
+    height: 350px;
+    width: 360px;
+}
+  .img_two {
+    height: 390px;
+    width: 180px;
+  }
+
+  .img_three {
+    height: 390px;
+    width: 180px;
+  }
+
+  .two_images {
+    display: grid 1fr 1fr;
+    float: left;
+  }
 }
