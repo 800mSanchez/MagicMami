@@ -1,7 +1,7 @@
 /* Master Styles */
 @import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap");
 
-*{
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,7 @@
     /* overflow-y: hidden; */
     overflow-x: hidden;
     background-color: #f3f5f9;
-}
+  }
   
   .wrapper{
     display: flex;
@@ -27,7 +27,7 @@
     /* margin: 0px; */
   }
   
-/* Side-Bar CSS */
+ /* Side-Bar CSS */
 
   .wrapper .sidebar{
     width: 13.1vw;
@@ -37,7 +37,7 @@
     position: fixed;
   }
   
-  .wrapper .sidebar img {
+  .wrapper .sidebar img{
     width: 200px;
     height: 50px
     margin-bottom: 90px;
@@ -423,7 +423,7 @@
       width: 82vw;
       background-size: cover;
       background-position: center center;
-}
+  }
   .img_two {
     height: 60vh;
     width: 40.5vw;
@@ -495,33 +495,6 @@
     margin-left: 100px;
     font-size: 28px;
   }
-
-  /* ABOUT CSS MOBILE */
-
-  .two_containers {
-    display: block;
-  }
-
-  .picture, .about_me {
-    width: 70vw;
-  }
-
-  .picture {
-    width: 40vw;
-    height: 44vh;
-    margin-left: 210px;
-  }
-
-  .about_me {
-    margin-top: 40px;
-    margin-left: 60px;
-    font-size: large;
-  }
-
-  .text-3 {
-    text-align: center;
-    font-size: 45px;
-  }
      
 }
 
@@ -558,6 +531,25 @@
     font-size: 28px;
   }
       
+  /* ABOUT CSS MOBILE */
+
+  .picture {
+    width: 34vw;
+    height: 36vh;
+    margin-left: 180px;
+  }
+
+  .about_me {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: small;
+  }
+
+  .text-3 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+
 }
 
 @media (max-width: 414px) {
@@ -673,27 +665,30 @@
 
   /* ABOUT CSS MOBILE */
 
+  .two_containers {
+    height: 206vh;
+  }
+
   .picture, .about_me {
     width: 70vw;
   }
 
   .picture {
-    width: 40vw;
-    height: 44vh;
-    margin-left: 210px;
+    width: 42vw;
+    height: 36vh;
+    margin-left: 120px;
   }
 
   .about_me {
     margin-top: 40px;
     margin-left: 60px;
-    font-size: X-large;
+    font-size: small;
   }
 
   .text-3 {
     text-align: center;
-    font-size: 45px;
+    font-size: 25px;
   }
-
 }
 
 @media (max-width: 370px) {
@@ -713,6 +708,32 @@
     font-size: 15px;
   }
 
+  /* ABOUT CSS MOBILE */
+
+  .two_containers {
+    height: 250vh;
+  }
+
+  .picture, .about_me {
+    width: 70vw;
+  }
+
+  .picture {
+    width: 42vw;
+    height: 36vh;
+    margin-left: 120px;
+  }
+
+  .about_me {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: small;
+  }
+
+  .text-3 {
+    text-align: center;
+    font-size: 20px;
+  }
 
 }
 
@@ -742,5 +763,31 @@
     font-size: 15px;
   }
 
+  /* About CSS MOBILE */
+
+  .two_containers {
+    height: 265vh;
+  }
+
+  .picture, .about_me {
+    width: 70vw;
+  }
+
+  .picture {
+    width: 42vw;
+    height: 36vh;
+    margin-left: 120px;
+  }
+
+  .about_me {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: small;
+  }
+
+  .text-3 {
+    text-align: center;
+    font-size: 25px;
+  }
 
 }
