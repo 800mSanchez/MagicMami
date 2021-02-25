@@ -353,6 +353,8 @@
 
 @media (max-width: 1366px) {
 
+  /* SIDEBAR CSS MOBILE */
+
   .wrapper .sidebar{
     height: 100vh;
     width: 19vw;
@@ -386,7 +388,7 @@
     font-size: 50px;
   }
 
-  /* MAIN CONTENT AREA mOBILE CSS */
+  /* MAIN CONTENT AREA MOBILE CSS */
 
   .wrapper .main_content{
     margin-left: 19vw;
@@ -439,12 +441,38 @@
     background-size: cover;
   }
 
+  /* ABOUT ME CSS MOBILE */
+
+  .two_containers {
+    display: block;
+  }
+
+  .picture, .about_me {
+    width: 70vw;
+  }
+
+  .picture {
+    width: 40vw;
+    height: 44vh;
+    margin-left: 210px;
+  }
+
+  .about_me {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: large;
+  }
+
+  .text-3 {
+    text-align: center;
+    font-size: 45px;
+  }
       
 }
 
 @media (max-width: 970px) {
 
-  /* MAIN CONTENT AREA mOBILE CSS */
+  /* MAIN CONTENT AREA MOBILE CSS */
 
   .text {
     margin-top: 380px;
@@ -467,6 +495,33 @@
     margin-left: 100px;
     font-size: 28px;
   }
+
+  /* ABOUT CSS MOBILE */
+
+  .two_containers {
+    display: block;
+  }
+
+  .picture, .about_me {
+    width: 70vw;
+  }
+
+  .picture {
+    width: 40vw;
+    height: 44vh;
+    margin-left: 210px;
+  }
+
+  .about_me {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: large;
+  }
+
+  .text-3 {
+    text-align: center;
+    font-size: 45px;
+  }
      
 }
 
@@ -483,7 +538,7 @@
     padding-left: 20px;
   }
 
-  /* MAIN CONTENT AREA mOBILE CSS */
+  /* MAIN CONTENT AREA MOBILE CSS */
 
   .text {
     margin-top: 320px;
@@ -576,18 +631,18 @@
     width: 100vw;
     background-size: cover;
     background-position: center center;
-}
-.img_two {
-  height: 55vh;
-  width: 50vw;
-  background-size: cover;
+  }
+  .img_two {
+    height: 55vh;
+    width: 50vw;
+    background-size: cover;
     background-position: center center;
-}
+  }
 
-.img_three {
-  height: 55vh;
-  width: 50vw;
-  background-size: cover;
+  .img_three {
+    height: 55vh;
+    width: 50vw;
+    background-size: cover;
     background-position: center center;
   }
 
@@ -615,6 +670,30 @@
     margin-right: 1px;
     font-size: 18px;
   }
+
+  /* ABOUT CSS MOBILE */
+
+  .picture, .about_me {
+    width: 70vw;
+  }
+
+  .picture {
+    width: 40vw;
+    height: 44vh;
+    margin-left: 210px;
+  }
+
+  .about_me {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: X-large;
+  }
+
+  .text-3 {
+    text-align: center;
+    font-size: 45px;
+  }
+
 }
 
 @media (max-width: 370px) {
