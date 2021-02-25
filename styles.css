@@ -490,6 +490,63 @@
     width: 62vw;
     height: 75vh;
   }
+
+   /* ORDER FORM CSS */
+
+   .img_four {
+    background: url(images/Food3.jpg) 0 0 no-repeat;
+    display: block;
+    height: 77vh;
+    /* text-indent: -99999em; */
+    width: 27vw;
+    overflow: hidden;
+    background-size: cover;
+    transition: 0.8s ease-in-out, transform 1s;
+    filter: brightness(90%);
+    /* border-radius: 5%; */
+  }
+
+  .img_five {
+    background: url(images/Food5.jpg) 0 0 no-repeat;
+    display: block;
+    height: 77vh;
+    width: 27vw;
+    overflow: hidden;
+    background-size: cover;
+    transition: 0.8s ease-in-out, transform 1s;
+    filter: brightness(90%);
+   /*  border-radius: 5%; */
+  }
+
+  .img_six {
+    background: url(images/Food2.jpg) 0 0 no-repeat;
+    display: block;
+    height: 77vh;
+    width: 27vw;
+    overflow: hidden;
+    background-size: cover;
+    transition: 0.8s ease-in-out, transform 1s;
+    filter: brightness(90%);
+    /* border-radius: 5%; */
+  }
+
+  .images {
+    display: flex;
+    object-fit: contain;
+    margin-top: 6vh;
+  } 
+
+  .btn {
+    
+  padding: 65px 180px;
+  display: inline-block;
+  /* margin: 15px 30px; */
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 5vh;
+  margin-left: 18vw;
+  margin-bottom: 5px;
+}
       
 }
 
@@ -752,13 +809,13 @@
   }
 
   .picture {
-    width: 42vw;
+    width: 50vw;
     height: 36vh;
-    margin-left: 120px;
+    margin-left: 90px;
   }
 
   .about_me {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 60px;
     font-size: small;
   }
