@@ -754,13 +754,13 @@
   }
 
   .picture {
-    width: 42vw;
+    width: 50vw;
     height: 36vh;
-    margin-left: 120px;
+    margin-left: 100px;
   }
 
   .about_me {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 60px;
     font-size: small;
   }
