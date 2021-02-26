@@ -139,8 +139,8 @@
 
   .text-1 {
     display: flex;
-    margin-top: 640px;
-    margin-left: 30px;
+    margin-top: 80px;
+    margin-left: 40px;
     color: white;
     text-shadow: 1px 1px black;
     font-size: 40px;
@@ -414,9 +414,11 @@
   }
 
   .text-1 {
-    margin-top: 740px;
+    margin-top: 30px;
     font-size: 28px;
-    margin-left: 10px;
+    margin-left: 60px;
+    margin-right: 120px;
+    letter-spacing: 1px;
   }
 
   .text-2 {
@@ -577,9 +579,11 @@
   }
 
   .text-1 {
-    margin-top: 640px;
-    margin-left: 10px;
-    font-size: 25px;
+    margin-top: 30px;
+    font-size: 28px;
+    margin-left: 60px;
+    margin-right: 120px;
+    letter-spacing: 1px;
   }
 
   .text-2 {
@@ -612,9 +616,11 @@
   }
 
   .text-1 {
-    margin-top: 540px;
-    margin-left: 10px;
-    font-size: 25px;
+    margin-top: 30px;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-right: 49px;
+    letter-spacing: 1px;
   }
 
   .text-2 {
@@ -773,16 +779,19 @@
   }
 
   .text-1 {
-    margin-top: 320px;
-    margin-left: 10px;
-    font-size: 18px;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 79px;
+    letter-spacing: 1px;
   }
 
   .text-2 {
-    margin-top: 14px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 98px;
     margin-right: 1px;
     font-size: 18px;
+    letter-spacing: 1px;
   }
 
   /* ABOUT CSS MOBILE */
@@ -880,8 +889,11 @@
   }
 
   .text-1 {
-    margin-top: 280px;
+    margin-top: 10px;
     font-size: 16px;
+    margin-left: 8px;
+    margin-right: 79px;
+    letter-spacing: 1px;
   }
 
   .text-2 {
