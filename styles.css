@@ -205,7 +205,7 @@
     display: flex;
   }
 
-/* Menu CSS */
+  /* Menu CSS */
 
   .header {
     display: flex;
@@ -220,6 +220,79 @@
     width: 500px;
     height: 650px;
   }
+
+/* Cater CSS */
+
+  .header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: xx-large;
+  }
+
+  .img_eight {
+    background: url(images/Cater.jpg) 0 0 no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70.1vh;
+   /*  text-indent: -99999em; */
+    width: 86vw;
+   /*  overflow: hidden; */
+    background-size: cover;
+    filter: brightness(90%);
+    transition: 0.8s ease-in-out, transform 1s;
+  }
+
+  .img_eight:hover {
+    box-shadow: inset 0 0 50px #000000;
+    transform: scale(.95);
+    filter: brightness(80%);
+}
+
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cater_images {
+    display: flex;
+  }
+
+  .img_nine {
+    background: url(images/Cater1.jpg) 0 0 no-repeat;
+    display: block;
+    height: 90.1vh;
+   /*  text-indent: -99999em; */
+    width: 43vw;
+   /*  overflow: hidden; */
+    background-size: cover;
+    filter: brightness(90%);
+    transition: 0.8s ease-in-out, transform 1s;
+  }
+
+  .img_nine:hover {
+    box-shadow: inset 0 0 50px #000000;
+    transform: scale(.95);
+    filter: brightness(80%);
+}
+
+  .img_ten {
+    background: url(images/Catering3.jpg) 0 0 no-repeat;
+    display: block;
+    height: 90.1vh;
+   /*  text-indent: -99999em; */
+    width: 43vw;
+   /*  overflow: hidden; */
+    background-size: cover;
+    filter: brightness(90%);
+    transition: 0.8s ease-in-out, transform 1s;
+  }
+
+  .img_ten:hover {
+    box-shadow: inset 0 0 50px #000000;
+    transform: scale(.95);
+    filter: brightness(80%);
+}
 
 /* About Me CSS */
 
@@ -598,7 +671,7 @@
   
   .wrapper .sidebar ul li a{
     font-size: x-large;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-left: 20px;
   }
 
@@ -698,8 +771,8 @@
     display: flex;
     flex-direction: row;
     margin: 0px;
-    margin-left: 2px;
-    padding: 10px;
+    margin-left: 12px;
+    padding: 1px;
     border-bottom: 1px solid #bdb8d7;
     border-bottom: 1px solid rgba(0,0,0,0.05);
     border-top: 1px solid rgba(255,255,255,0.05);
@@ -724,15 +797,15 @@
     padding-top: 14px;
     padding-bottom: 20px;
     padding-right: 20px;
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
 
   .wrapper .sidebar ul li a .fas.fa-utensils{
-    padding-left: 36px;
+    padding-left: 20px;
   }
 
   .wrapper .sidebar ul li a .fas.fa-blog{
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
 
