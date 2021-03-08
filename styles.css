@@ -167,7 +167,7 @@
   }
 
   .img_two {
-    background: url(images/Food6.jpg) 0 0 no-repeat;
+    background: url(images/tamales.jpg) 0 0 no-repeat;
     display: block;
     height: 90.1vh;
     /* text-indent: -99999em; */
@@ -627,7 +627,7 @@
   }
 
   .img_seven {
-    background: url(images/tamales.jpg) 0 0 no-repeat;
+    background: url(images/Food6.jpg) 0 0 no-repeat;
     display: block;
     height: 60vh;
     width: 40vw;
